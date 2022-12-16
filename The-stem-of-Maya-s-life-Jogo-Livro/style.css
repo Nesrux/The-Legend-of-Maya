@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+   background-image:url(img/backgroundLight.jpg);
+    height: 100vh;
+    
+}
+
+
+/*Barra de navegação*/
+.barra {
+    background: #0c0c0ce3;    
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    
+    color: #e9e9e9;
+}
+/* botão sol e lua*/
+.barra a{
+    margin-top: 12px;
+    margin-left: 25vw;
+    cursor: pointer;
+}
+
+/*Fim da barra*/
+
+
+
+/*Conteudo da pagina*/
+
+.conteudo {
+    text-align: center;
+}
+.conteudo p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+    color: #2a2525;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+/* botão*/
+
+ .conteudo button {
+    border-radius: 20px;
+    padding: 6px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+    box-shadow:0 3px 0 #000000;
+}
+
+.conteudo button:hover {
+    box-shadow:0 3px 0 #000000;
+}
+      
+    
+.conteudo button:active {
+    position:relative;
+    top:5px;
+    box-shadow:none;
+}
+
+
+/*Darkmode*/
+
+.black .conteudo p{
+    color:#e9e9e9;
+}
+.black .conteudo {
+    color: #ffff;
+    
+}
+body.black{
+    background-image:url('img/backgroundDark.png');
+    width: 100%;
+    height:100%;
+}
+
+
+
+/*Cor do botão no modo escuro*/
+black-bnt{
+    background-color:crimson;
+}
+
+
+/* texto */
+
+ .conteudo h2 {
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-style: oblique;
+    font-size: 48px;
+ }
+
+
+ /* imagem de inicio */ 
+
+ .imagemPrincipio img {
+    width: 50vw;
+    height: 80vh;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 0px #2e2c2c;
+    margin-top: 20px;
+ }
+/*imagem de inicio - modo dark*/
+ .black .imagemPrincipio img {
+    width: 50vw;
+    height: 80vh;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 0px #000000;
+    margin-top: 20px;
+}
+
+/*editando a segunda parte do inicio*/
+
+.principioPt2  img{
+    width: 50vw;
+    height: 80vh;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 0px #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*estilo da carta*/
+.cartinha img {
+    position:relative ;
+    transform: rotate(90deg);
+    width: 20vw;
+    height: 50vh;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+/*inicio da jornada*/
+.imgJornada img {
+    width: 30vw;
+    height: 50vh;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.caminhoBifurcacao img {
+    width: 30vw;
+    height: 80vh;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.esquerda img {
+    width: 45vw;
+    height: 60vh;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.emboscada img{
+    width: 40vw;
+    height: 80vh;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.final1 img {
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.aceitacao img {
+    width: 40vw;
+    height: 80vh;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.monstro img {
+    width: 40vw;
+    height: 70vh;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fronteiraHefesto img{
+    width: 40vw;
+    height: 70vh;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skadiCave img{
+    width: 70vw;
+    height: 60vh;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.iceCave img{
+    width: 40vw;
+    height: 70vh;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.arco img {
+    width: 30vw;
+    height: 60vh;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
